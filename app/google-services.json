@@ -1,0 +1,114 @@
+{
+  "project_info": {
+    "project_number": "551586719618",
+    "firebase_url": "https://toucan-beta.firebaseio.com",
+    "project_id": "toucan-beta",
+    "storage_bucket": "toucan-beta.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:551586719618:android:9ed9f1b385af74d9",
+        "android_client_info": {
+          "package_name": "com.community.toucan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "551586719618-l8mvl2f6dmfprpngc1jdo4lvjd3sokl3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.community.toucan",
+            "certificate_hash": "8608ddf1d8353b0a3fe72565bfbe3671bfc9dde4"
+          }
+        },
+        {
+          "client_id": "551586719618-8ncksh0b85drqvgc3s0crhpe5bgk9ogn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFROfrxFnpE8Oo0a6ZkFjT5U8Hykx61Bc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "551586719618-8ncksh0b85drqvgc3s0crhpe5bgk9ogn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:551586719618:android:7c2b1edf995f4bf6",
+        "android_client_info": {
+          "package_name": "com.main.toucanmvp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "551586719618-8ncksh0b85drqvgc3s0crhpe5bgk9ogn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFROfrxFnpE8Oo0a6ZkFjT5U8Hykx61Bc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "551586719618-8ncksh0b85drqvgc3s0crhpe5bgk9ogn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:551586719618:android:cafd58f75e0ea3c6",
+        "android_client_info": {
+          "package_name": "com.toucan.light.toucanlightapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "551586719618-a6gs7lvoduoap20323qqrde0mqujmadv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.toucan.light.toucanlightapplication",
+            "certificate_hash": "8608ddf1d8353b0a3fe72565bfbe3671bfc9dde4"
+          }
+        },
+        {
+          "client_id": "551586719618-8ncksh0b85drqvgc3s0crhpe5bgk9ogn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFROfrxFnpE8Oo0a6ZkFjT5U8Hykx61Bc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "551586719618-8ncksh0b85drqvgc3s0crhpe5bgk9ogn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

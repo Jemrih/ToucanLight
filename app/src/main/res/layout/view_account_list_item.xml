@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:foreground="?android:attr/selectableItemBackground">
+
+    <ImageView
+        android:id="@+id/img_view_account_list_item_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_wallet" />
+
+    <TextView
+        android:id="@+id/txt_view_account_list_item_title"
+        style="@style/Title_Bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/txt_view_account_list_item_number"
+        app:layout_constraintStart_toEndOf="@+id/img_view_account_list_item_icon"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="packed"
+        tools:text="Lönekonto" />
+
+    <TextView
+        android:id="@+id/txt_view_account_list_item_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/v_txt_view_account_list_item_border"
+        app:layout_constraintStart_toStartOf="@+id/txt_view_account_list_item_title"
+        app:layout_constraintTop_toBottomOf="@+id/txt_view_account_list_item_title"
+        tools:text="5699 00 301 35" />
+
+    <TextView
+        android:id="@+id/txt_view_account_list_item_amount"
+        style="@style/Title_Bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/txt_view_account_list_item_title"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/txt_view_account_list_item_title"
+        tools:text="500 000" />
+
+    <View
+        android:id="@+id/v_txt_view_account_list_item_border"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:background="@color/grayPrimary"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/txt_view_account_list_item_title" />
+
+    <ImageView
+        android:id="@+id/img_view_account_list_item_more"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:tint="@color/bluePrimary"
+        app:layout_constraintEnd_toEndOf="@+id/txt_view_account_list_item_amount"
+        app:layout_constraintTop_toBottomOf="@+id/txt_view_account_list_item_amount"
+        app:srcCompat="@drawable/ic_more_vertical" />
+</androidx.constraintlayout.widget.ConstraintLayout>

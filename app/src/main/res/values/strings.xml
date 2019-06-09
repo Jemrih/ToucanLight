@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">ToucanLightApplication</string>
+
+    <string name="accounts_view_title">Accounts</string>
+    <string name="loans_view_title">Loans</string>
+
+    <string name="apex_title">Apex Consulting AB</string>
+    <string name="apex_company_number">559193–1935</string>
+
+    <string name="login_view_button_primary">Log in</string>
+    <string name="login_view_title">Företag</string>
+    <string name="login_view_contact_us">Contact us</string>
+    <string name="login_view_fake_logo">F|A|K|E</string>
+    <string name="login_view_card_title">Welcome to fake bank</string>
+    <string name="login_view_card_text">This should have been a viewpager</string>
+
+    <string name="history_view_upcoming_transaction_title">Upcoming transactions</string>
+    <string name="history_view_upcoming_transaction_description">No upcoming transactions</string>
+</resources>
