@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<template
+    name="Toucan Light MVP"
+    description="This template will create an Fragment that follows the MVP design pattern"
+    format="5"
+    revision="1">
+
+    <category value="Toucan Light MVP"/>
+
+    <parameter
+        name="Package name"
+        constraints="package|nonempty"
+        default="com.toucan.light.toucanlightapplication"
+        id="packageName"
+        type="string"/>
+
+    <parameter
+        name="Class Name (without Fragment suffix)"
+        constraints="class|nonempty"
+        default=""
+        id="className"
+        type="string"/>
+
+    <parameter
+        id="needsActivity"
+        name="Needs an activity?"
+        type="boolean"
+        default="false"
+        help="If true, the fragment will have an activity created for it"/>
+
+
+    <parameter
+        name="Layout name for fragment"
+        constraints="layout|nonempty"
+        default="fragment_view"
+        id="fragment_layout"
+        suggest="fragment_${extractLetters(className?lower_case)}"
+        type="string"/>
+
+    <parameter
+        name="Layout name for activity"
+        constraints="layout|nonempty"
+        default="activity_view"
+        id="activity_layout"
+        visibility="needsActivity!true"
+        suggest="activity_${extractLetters(className?lower_case)}"
+        type="string"/>
+    <globals file="globals.xml.ftl"/>
+    <execute file="recipe.xml.ftl"/>
+
+</template>
